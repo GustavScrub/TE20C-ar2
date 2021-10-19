@@ -15,7 +15,7 @@ namespace Prog_Prov_1
             Console.Write("Ange din bruttolön i kronor: ");
             int svar2 = int.Parse(Console.ReadLine());
 
-            if (svar2 < 10000 & > 45000)
+            if (svar2 < 10000 && svar2 > 45000)
             {
                 Console.WriteLine($"{svar1}, bruttolön måste vara 45000 < 10000");
             }
