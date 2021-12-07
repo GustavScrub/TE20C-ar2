@@ -19,9 +19,20 @@ namespace Uppgift_5._1
             Console.WriteLine($"Skriv in en till svensk stad förutom {städer[0]} och {städer[1]}");
             städer[2] = Console.ReadLine();
 
-            // Resultatet
+            // Skriv avslutningsvis ut alla stadsnamnen på samma rad
             Console.WriteLine("Här är 3 svenska städer:");
             Console.WriteLine($"{städer[0]}, {städer[1]} och {städer[2]}");
+
+            // Ett annat sätt att skapa en array
+            string[] länder = {"Sverige", "Finland", "Dannmark", "Norge"};
+            länder[0] = "Tyskland";
+
+            // Skriv ut alla länder
+            // Loopa igenom arrayen länder
+            foreach (var land in länder)
+            {
+                Console.WriteLine(land);
+            }
         }
     }
 }
