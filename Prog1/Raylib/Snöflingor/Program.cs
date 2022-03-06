@@ -66,7 +66,7 @@ namespace Snöflingor
                     Raylib.DrawRectangleRec(flingor[i], Color.WHITE);
                 }
                 //Raylib.DrawRectangleRec(snö, Color.WHITE);
-
+                
 
                 Raylib.EndDrawing();
                 //----------------------------------------------------------------------------------
